@@ -5,6 +5,7 @@ class welcomepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: SafeArea(
+            child: Padding(
       child: Column(
         children: [
           Image.asset('images/com.png'),
@@ -31,6 +32,6 @@ class welcomepage extends StatelessWidget {
           Text('I am new Member?'),
         ],
       ),
-    ));
+    )));
   }
 }
