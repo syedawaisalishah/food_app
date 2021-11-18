@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class welcomepage extends StatelessWidget {
+class Signup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -9,7 +9,7 @@ class welcomepage extends StatelessWidget {
       padding: const EdgeInsets.all(20.0),
       child: Column(
         children: [
-          Image.asset('images/com.png'),
+          Image.asset('images/sign-in.png'),
           SizedBox(
             height: 20,
           ),
@@ -29,7 +29,7 @@ class welcomepage extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          MaterialButton(onPressed: () {}, child: Text('login', style: TextStyle(color: Colors.white)), color: Colors.red, height: 50, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(05))),
+          MaterialButton(onPressed: () {}, child: Text('Signup', style: TextStyle(color: Colors.white)), color: Colors.red, height: 50, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(05))),
           Text('I am new Member?'),
         ],
       ),
