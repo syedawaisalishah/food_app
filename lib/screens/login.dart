@@ -27,7 +27,8 @@ class welcomepage extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          MaterialButton(onPressed: () {}, child: Text('login', style: TextStyle(color: Colors.white)), color: Colors.red, height: 50, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(05)))
+          MaterialButton(onPressed: () {}, child: Text('login', style: TextStyle(color: Colors.white)), color: Colors.red, height: 50, shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(05))),
+          Text('I am new Member?'),
         ],
       ),
     ));
