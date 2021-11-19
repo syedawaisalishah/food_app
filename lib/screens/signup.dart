@@ -18,6 +18,12 @@ class Signup extends StatelessWidget {
             height: 20,
           ),
           TextField(
+            decoration: const InputDecoration(border: OutlineInputBorder(), hintText: 'Enter Your Name'),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+          TextField(
             decoration: const InputDecoration(border: OutlineInputBorder(), hintText: 'Enter Your Email'),
           ),
           SizedBox(
