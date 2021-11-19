@@ -9,7 +9,7 @@ class Signup extends StatelessWidget {
       padding: const EdgeInsets.all(20.0),
       child: Column(
         children: [
-          Image.asset('images/sign-in.png', height: 20),
+          Image.asset('images/sign-in.png', height: 200),
           SizedBox(
             height: 20,
           ),
